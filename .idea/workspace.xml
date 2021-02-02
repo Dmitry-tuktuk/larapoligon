@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4c5561c-81a0-4d39-a031-f0d0c76988d6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f4c5561c-81a0-4d39-a031-f0d0c76988d6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,13 +30,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\OSPanel\domains\LaraPoligon\resources" />
       <recent name="D:\OSPanel\domains\LaraPoligon\app" />
     </key>
   </component>
@@ -51,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612274414386</updated>
-      <workItem from="1612274415582" duration="3706000" />
+      <workItem from="1612274415582" duration="4012000" />
     </task>
     <task id="LOCAL-00001" summary="Lara v8 new project">
       <created>1612276606007</created>
@@ -67,7 +65,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612278003164</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Перенос папки resources/views/blog из старого проекта">
+      <created>1612278427642</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612278427642</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +103,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Перенос папки app из старого проекта" />
-    <option name="LAST_COMMIT_MESSAGE" value="Перенос папки app из старого проекта" />
+    <MESSAGE value="Перенос папки resources из старого проекта" />
+    <MESSAGE value="Перенос папки resources/views/blog из старого проекта" />
+    <option name="LAST_COMMIT_MESSAGE" value="Перенос папки resources/views/blog из старого проекта" />
   </component>
 </project>

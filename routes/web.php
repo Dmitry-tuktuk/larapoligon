@@ -18,17 +18,17 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::group(['prefix'=>'digging_deeper'], function () {
-    Route::get('collections', 'DiggingDeeperController@collections')
+    Route::get('collections', [App\Http\Controllers\HomeController::class, 'collections'])
         ->name('digging_deeper.collections');
 });
 
-Route::group(['namespace'=>'Blog','prefix'=>'blog'], function(){
+Route::group(['namespace'=>'App\Http\Controllers\Blog','prefix'=>'blog'], function(){
     Route::resource('posts', 'PostController')->names('blog.posts');
 });
 
 //Админка Блога
 $groupData = [
-    'namespace' => 'Blog\Admin',
+    'namespace' => 'App\Http\Controllers\Blog\Admin',
     'prefix' => 'admin/blog',
 ];
 Route::group($groupData, function () {

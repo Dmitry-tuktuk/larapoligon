@@ -43,3 +43,7 @@ Route::group($groupData, function () {
         ->except(['show'])
         ->names('blog.admin.posts');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
